@@ -1,26 +1,5 @@
-# IDE Files
-#-------------------------
-.DS_Store
-sftp-config.json
-sftp.json
-*.code-workspace
-.vscode
-.vs
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
-*.map
-
-# Project Files
-#-------------------------
-.sass-cache
-*.log
-*.zip
-
-# Nodes
-#-------------------------
-node_modules
+# Add any directories, files, or patterns you don't want to be tracked by version control
+node_modules/
 package-lock.json
-public
+.DS_Store
+.vscode

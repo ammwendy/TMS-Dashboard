@@ -1,138 +1,73 @@
-# siQtheme Reponsive Admin Template with jQuery and Bootstrap 4 - Dark and Light Mode
+<table>
+  <tr>
+    <td>
+      <a href="https://www.bootstrapdash.com/demo/corona-free/jquery/template/index.html" target="_blank"><img src="preview.jpg"></a>
+       <h3>Corona-free</h3>
+    </td>
+  </tr>
+</table>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/release/siQuang/siqtheme.svg)](https://github.com/siQuang/siqtheme/releases)
-[![npm version](https://img.shields.io/npm/v/siqtheme/latest.svg)](https://www.npmjs.com/package/siqtheme)
+<h1>CoronaAdmin-Free-Admin-Template</h1>
+Corona Admin is a free responsive admin template built with Bootstrap 4. The template has colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.
 
-As the world is going into lockdown because of the covid-19 pandemic, why not take this opportunity while staying at home to create something for the community and share it with the world!
+Corona Admin is packed with all the features that fit your needs but not cramped with components you would not even use. It is an excellent fit to build admin panels, e-commerce systems, project management systems, CMS or CRM.
 
-siQtheme is a responsive admin template created with Bootstrap 4 and using Webpack / Laravel-Mix to bundle the assets. It's best to use it with a packages manager like npm or yarn and pull into your project. However, you can install the theme traditionally by compiling the source into a public build. Webpack is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.
+Although the template has a design like none other, it is easily customizable to suit your requirements. Corona Admin comes with a clean and well-commented code that makes it easy to work with the template. Thus making it an ideal pick for jump starting your project.
 
-Author: Simon Nguyen - [siQuang](https://siquang.com)
+<h1>Credits:</h1>
 
-**View demo here [https://siqtheme.siquang.com](siQtheme Demo)**
+- Bootstrap 4
+- Material Design Icons
+- jQuery
+- Gulp
+- Chart.js
 
-!["siQtheme Dark"](https://siqtheme.siquang.com/assets/img/siqtheme_dark.png "siQtheme Dark")
+<h1>Browser Support:</h1>
 
-!["siQtheme Light"](https://siqtheme.siquang.com/assets/img/siqtheme_light.png "siQtheme Light")
+Corona Admin is designed to work flawlessly with all the latest and modern web browsers.
 
-## Installation
+- Chrome (latest)
+- FireFox (latest)
+- Safari (latest)
+- Opera (latest)
+- IE10+
 
-There are a few ways to install **siQtheme** depends on your project. You'll need Node.js and NPM to pull in all the packages as the download only contains the source files.
+<h1>License Information:</h1>
 
-#### Download from Github
+Corona Admin is released under MIT license. Corona Admin is a free Bootstrap 4 admin template developed from BootstrapDash. Feel free to download it, use it, share it, get creative with it.
 
-- Download from [Github Releases](https://github.com/siQuang/siqtheme/releases).
-- After download run the following command from project directory in console to pull in all dependencies.
+<h1>How to use Corona Admin?</h1>
 
-``` bash
-# install app's dependencies
-$ npm install
-```
+1 - Click the Clone or Download button in GitHub and download as a ZIP file or you can enter the command git clone https://github.com/BootstrapDash/corona-free-dark-bootstrap-admin-template.git in you terminal to get a copy of this template.
 
-#### GIT Clone
+2 - After the files have been downloaded you will get a folder with all the required files
 
-``` bash
-git clone https://github.com/siQuang/siqtheme.git
-```
+3 - You can install all the dependencies in the template by running the command npm install. All the required files are in the node modules.
 
-#### NPM
+4 - Find the file named index.html, check what all components you need. Open the file in a text editor and you can start editing.
 
-``` bash
-# install package
-$ npm i siqtheme
-```
+5 - Now that your project has now kick-started, all you need to do now is to code, code, and code to your heart's content.
 
-## Usage
+<h1>How to Contribute?:</h1>
 
-Just run the following cmd to generate a public directory with all the files.
+We love your contributions and we welcome them wholeheartedly. We believe the more the merrier.
+To contribute make sure you have a Node.js and npm installed. Now run the command gulp --version. If the command returns with the Gulp version number, it means you have Gulp installed. If not you need to run the command npm install --global gulp-cli to install Gulp.
 
-``` bash
-# compile as development
-$ npm run dev
+<h2>Next</h2>
 
-# build production with minification
-$ npm run prod
+After Gulp has been installed, follow the steps below to contribute.
+<br>
+1 - Fork and clone the repo of Corona Admin.
+<br>
+2 - Run the command npm install to install all the dependencies.
+<br>
+3 - Enter the command gulp serve. This will open Corona Admin in your default browser.
+<br>
+4 - Make your valuable contribution
+<br>
+5 - Submit a pull request.
 
-#---------------------------------------
-# To use browser sync, make sure to change
-# the proxy to your local environment
-# i.e. localhost
-#---------------------------------------
-$ npm run watch
-```
-
-## Structures
-
-The download contains the source files and will need to be compile for development or production.
-
-```
-siqtheme/
-├── src/
-│   ├── assets/
-│   │   ├── fonts/
-│   │   ├── img/
-│   │   ├── sass/
-│   │   ├── scripts/
-│   ├── partials/
-│   ├── index.ejs
-│   └── ...
-├── mix-manifest.json
-├── package.json
-├── pages.js
-└── webpack.mix.js
-```
-## Using siQtheme with Laravel
-
-Install the siQtheme package
-
-``` bash
-$ npm i siqtheme
-```
-
-Add to bootstrap.js file in resources directory
-
-``` bash
-require('siqtheme');
-```
-
-Import styles to app.scss
-
-``` bash
-@import '~siqtheme/src/assets/sass/siqtheme';
-```
-
-Create a new view file (i.e. test.blade.php) and copy the content from the sample.html:
-
-```
-node_modules/siqtheme/src/sample.html
-```
-
-Replace the stylesheet link and script in your new file with the correct link and script for your application.
-
-``` bash
-# replace this line to point to your style
-<link href="assets/css/app.css" rel="stylesheet">
-
-# replace this line to point to your script
-<script src="assets/scripts/app.js"></script>
-```
-
-Add a new route
-
-``` bash
-Route::get('/test', function() {
-	return view('test');
-});
-```
-And thats it!
-
-## Using siQtheme with Codeigniter 3
-
-I've written an article on integrating siQtheme with Laravel-Mix for Codeigniter 3 that you can follow below.
-
-**[Integrating Laravel-Mix and siQtheme with Codeigniter 3](https://medium.com/@simonquang/integrating-laravel-mix-and-siqtheme-with-codeigniter-3-606191a5eda3)**
-
-Or you can download the completed project below.
-
-**[Download CI3-siQtheme](https://github.com/siQuang/ci3-siqtheme)**
+  <hr>
+	Do you need a template with more features and functionalities? Get more with our collection of the premium template with more plugins, eye catching animations, UI components, and sample pages all fitting together with a high-quality design.
+Visit
+  <a href="https://www.bootstrapdash.com" target="_blank">https://www.bootstrapdash.com</a> for more admin templates.
